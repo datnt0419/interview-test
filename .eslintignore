@@ -1,5 +1,6 @@
 node_modules
 node_modules/*
 public/*
-.eslintcache
 .lint-staged.config.cjs
+next.config.js
+postcss.config.js
