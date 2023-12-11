@@ -2,11 +2,18 @@
   "eslint.enable": true,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll": true,
-    "source.formatDocument": true,
-    "eslint.alwaysShowStatus": true,
-    "eslint.lintTask.enable": true
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll": "explicit",
+    "source.formatDocument": "explicit",
+    "eslint.alwaysShowStatus": "explicit",
+    "eslint.lintTask.enable": "explicit"
+  },
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "html": "HTML"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
   },
   "eslint.validate": [
     "html",

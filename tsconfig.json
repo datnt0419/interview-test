@@ -5,6 +5,7 @@
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
+    "types": ["jest", "@testing-library/jest-dom"],
 
     "noEmit": true,
     "esModuleInterop": true,
@@ -18,6 +19,7 @@
       {
         "name": "next"
       }
+    
     ],
     "paths": {
       "@/*": ["./*"]
@@ -29,5 +31,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts"
   ],
+  
   "exclude": ["node_modules"]
 }
